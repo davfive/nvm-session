@@ -28,7 +28,7 @@ NVM for Windows magic is that it installs each of the requested node versions in
 
 When you do a `nvm use 12.16.2` or somthing, NVM for Windows creates a symlink at C:\Program Files\nodejs to the selected version. This creates a globally accessible node version (from cmd.exe or gitbash).
 
-This script leverages the fact that every versioned node directory is a clean, standalone, and more importantly, usable version of node. So all that it does is prepend the local terminal session's PATH with the npm node version requested.
+This script leverages the fact that every versioned node directory is a clean, standalone, and more importantly, usable version of node.
 
 By prepended the path to the requested version of node to terminal's PATH variable, that terminal session becomes independent of the globally set nvm/node version, allowing us to have different versions of node in each terminal session.
 
