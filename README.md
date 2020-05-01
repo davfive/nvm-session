@@ -11,7 +11,13 @@ In your .bashrc file, add
 Then, in a GitBash terminal window, do
 ```
 nvm-session use <installed-node-version>  # e.g., nvm-session use 12.16.2
-nvm-session <other-nvm-action>            # Calls nvm to handle all other requests
+```
+Other uses:
+```
+nvm-session use <version>    : Switch to the specified version
+nvm-session use              : Show installed versions (same as list)
+nvm-session list|ls          : Shows installed versions and which is active
+nvm-session <other-nvm-cmd>  : Calls nvm to run command
 ```
 
 ## Requires
