@@ -19,9 +19,8 @@ nvm-session <other-nvm-action>            # Calls nvm to handle all other reques
 * Git for Windows a.k.a. GitBash (https://gitforwindows.org/)
 
 ## Known Limitations
-* When you enter a GitBash terminal session, the nvm's global node version will be available
-* `nvm-session ls|list` will not correctly show the terminal's active version (prefixex global version with *)
-* cmd.exe windows not supported. Could be supported via batch script, I don't need it (yet)
+* When you enter a GitBash terminal session, the nvm's global node version will be available. No default is set.
+* cmd.exe windows not supported. Could be supported via batch script/powershell, I don't need it (yet).
 
 ## How It Works
 NVM for Windows magic is that it installs each of the requested node versions into 
