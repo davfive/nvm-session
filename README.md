@@ -1,3 +1,9 @@
+> [!IMPORTANT]
+> ⛔ This project is no longer maintained ⛔
+> 
+> We have entered a universe where the [Volta](https://volta.sh/) project exists  
+> It offers everything nvm-session was trying to accomplish and much more. I happily surrender and join the winning side.  
+
 # nvm-session
 Wrapper for NVM for Windows that allows multiple GitBash windows or tabs to use different node versions.
 
